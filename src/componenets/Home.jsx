@@ -8,7 +8,7 @@ function Home() {
     const token = localStorage.getItem("token");
 
     axios
-      .get(" https://assignment-17r.onrender.com/Products", {
+      .get("https://assignment-17r.onrender.com/Products", {
         headers: {
           Authorization: `Bearer ${token}`,
         },

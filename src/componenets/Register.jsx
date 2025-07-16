@@ -21,7 +21,7 @@ function Register() {
     e.preventDefault();
     try {
       axios
-        .post(" https://assignment-17r.onrender.com/auth/register", reg)
+        .post("https://assignment-17r.onrender.com/auth/register", reg)
         .then((res) => {
           alert("registered successfully ");
         });
